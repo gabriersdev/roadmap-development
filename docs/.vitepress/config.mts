@@ -8,13 +8,13 @@ export default defineConfig({
   base: "/",
   title: "Blog - Lotus Media",
   description: "Blog da empresa Lotus Media",
-  head: [['link', { rel: 'icon', href: './images/logo.svg' }]],
+  head: [['link', { rel: 'icon', href: './images/favicon.svg' }]],
   themeConfig: {
     siteTitle: "Blog",
     // :title is replaced with the page title
     titleTemplate: ":title - ...",
 
-    logo: "/images/logo.svg",
+    logo: "/images/favicon.svg",
 
     // The title for establishing the outline of the page
     outlineTitle: 'Nesta página',
