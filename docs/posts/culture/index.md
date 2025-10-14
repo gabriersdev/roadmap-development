@@ -7,3 +7,7 @@ Categoria de posts com tendências e inovações do setor tecnológico, com ênf
 ## [Therac-25: o bug que matou – e o que ele ainda ensina aos desenvolvedores](./therac-25)
 
 Nos anos 80, um erro de software custou vidas em uma máquina de radioterapia. Neste post, revisitamos o caso do Therac-25 e destacamos as lições atemporais sobre responsabilidade, testes e desenvolvimento seguro.
+
+## [IA: O Deserto do Realmente Inútil](./desert-of-the-truly-useless)
+
+Não faz muito tempo, a IA era a resposta para tudo. Um futuro brilhante, eficiente e hiper-personalizado, onde assistentes digitais antecipariam nossas necessidades e resolveriam nossos problemas com a elegância de um mordomo britânico. A promessa era de clareza. O que recebemos, na maioria das vezes, foi um porteiro eletrônico com amnésia.
