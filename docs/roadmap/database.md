@@ -4,4 +4,7 @@ Bancos de dados são essenciais para armazenar, gerenciar e recuperar dados de a
 
 ## Cursos
 
-*(Conteúdo a ser adicionado)*
+* [MySQL - Básico](https://www.cursoemvideo.com/curso/mysql/)
+
+* MySQL - Procedures e Functions
+* MySQL - Triggers

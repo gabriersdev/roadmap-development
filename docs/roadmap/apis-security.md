@@ -9,5 +9,5 @@ Aprenda a criar interfaces de comunicação entre sistemas (APIs) e as melhores 
 * [Construindo Aplicações com Node.js - SENAI](https://play.senai.br/curso/construindo-aplicacoes-com-node.js)
 * [Criando seu Primeiro Endpoint em Node.js - SENAI](https://play.senai.br/curso/criando-seu-primeiro-endpoint-em-nodejs)
 
-### Tópicos para pesquisa (Sem links diretos no momento)
+### Tópicos para pesquisa
 * Dominando o NodeJS

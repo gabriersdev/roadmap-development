@@ -5,3 +5,7 @@ Padrões de arquitetura fornecem soluções comprovadas para problemas recorrent
 ## Cursos
 
 *(Conteúdo a ser adicionado)*
+
+## Para ler
+
+...

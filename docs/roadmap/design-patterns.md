@@ -5,3 +5,7 @@ Padrões de design são soluções gerais reutilizáveis para problemas comuns q
 ## Cursos
 
 *(Conteúdo a ser adicionado)*
+
+## Para ler
+
+...

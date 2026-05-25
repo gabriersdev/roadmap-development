@@ -8,3 +8,7 @@ A lógica de programação é o primeiro passo para qualquer desenvolvedor. É o
 * [Aprenda a programar - FIAP](https://on.fiap.com.br/nano-courses/course/?id=13043)
 * [Computação: Fundamentos - IFRS](https://moodle.ifrs.edu.br/enrol/index.php?id=10068)
 * [Bases Numéricas - Curso em Vídeo](https://www.cursoemvideo.com/curso/bases-numericas/)
+
+## Para ler
+
+...
