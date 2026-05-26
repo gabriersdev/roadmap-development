@@ -40,6 +40,9 @@ SD - JS - Avançado
 SD - Typescript básico
 SD - Dominando o NodeJS
 
+Gerador de IDs para identificar os cursos fora dos links públicos:
+Array.from({length: 10}, () => [1, 2, 3, 4, 5, 6, 7, 8, 9, 0][Math.floor(Math.random() * 10)]).join("")
+
 https://play.senai.br/curso/criando-seu-primeiro-projeto-nodejs
 https://play.senai.br/curso/construindo-aplicacoes-com-node.js
 https://play.senai.br/curso/criando-seu-primeiro-endpoint-em-nodejs

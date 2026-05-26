@@ -10,7 +10,16 @@ O desenvolvimento Front-end lida com a parte visual e interativa de uma aplicaç
 * [Programador Web - IFRS](https://moodle.ifrs.edu.br/enrol/index.php?id=10046)
 
 ### Tópicos para pesquisa
+
 * HTML Básico
 * Entendendo HTML com CSS
 * Flexbox
 * Mobile First
+
+## Para fazer
+
+## Para ler
+
+## Projetos
+
+...

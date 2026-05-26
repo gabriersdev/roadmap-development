@@ -9,6 +9,10 @@ A lógica de programação é o primeiro passo para qualquer desenvolvedor. É o
 * [Computação: Fundamentos - IFRS](https://moodle.ifrs.edu.br/enrol/index.php?id=10068)
 * [Bases Numéricas - Curso em Vídeo](https://www.cursoemvideo.com/curso/bases-numericas/)
 
+## Para fazer
+
 ## Para ler
+
+## Projetos
 
 ...

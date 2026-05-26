@@ -7,6 +7,10 @@ A Programação Orientada a Objetos (POO) é um paradigma de programação ampla
 * [Introdução à Programação Orientada a Objetos - IFSUL](https://mundi.ifsul.edu.br/portal/introducao-a-programacao-orientada-a-objetos.php)
 * [Linguagens de Programação Orientadas a Objetos - IFSUL](https://mundi.ifsul.edu.br/portal/linguagens-de-programacao-orientadas-a-objetos.php)
 
+## Para fazer
+
 ## Para ler
+
+## Projetos
 
 ...
