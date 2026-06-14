@@ -1,10 +1,14 @@
 import DefaultTheme from 'vitepress/theme'
 import { onMounted, watch } from "vue";
 import { useRoute } from "vitepress"; // É recomendado usar useRoute em vez de useRouter para observar mudanças de rota
+import RoadmapLists from './components/RoadmapLists.vue'
 import './style.css'
 
 export default {
   ...DefaultTheme,
+  enhanceApp({ app }) {
+    app.component('RoadmapLists', RoadmapLists)
+  },
   setup() {
     const route = useRoute();
     
