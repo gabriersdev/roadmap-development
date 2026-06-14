@@ -23,6 +23,63 @@ O conteúdo está organizado de forma sequencial para facilitar o aprendizado l�
 
 Este projeto de documentação é construído utilizando [VitePress](https://vitepress.dev/), um gerador de sites estáticos baseado em Vue.js otimizado para documentações.
 
+## Gerenciamento de Conteúdo (Roadmap Data)
+
+Para facilitar a manutenabilidade do projeto, todos os cursos, projetos, desafios e recomendações estão centralizados em um único arquivo JavaScript: `docs/data/roadmapData.js`.
+As páginas em Markdown (dentro de `docs/roadmap/`) utilizam um componente Vue global (`<RoadmapLists>`) que lê automaticamente os dados desse arquivo.
+
+### Estrutura dos Dados
+
+O arquivo exporta um objeto `roadmapData`, onde cada chave corresponde à categoria de uma página (ex: `logic`, `frontend`, etc.).
+
+Dentro de cada categoria, você pode utilizar as seguintes propriedades (todas opcionais):
+
+- `courses` (Array): Lista de cursos recomendados.
+- `researchTopics` (Array): Tópicos sugeridos para pesquisa e aprofundamento.
+- `todo` (Array): Exercícios práticos ou listas de tarefas.
+- `toRead` (Array): Artigos, livros ou documentações sugeridas para leitura.
+- `recommendations` (Array): Recomendações extras em geral.
+- `projects` (Array): Ideias de projetos práticos.
+
+### Atributos dos Elementos
+
+Para as propriedades que aceitam links (como `courses`, `todo`, `toRead`, `recommendations` e `projects`), os elementos do Array podem ser objetos com a seguinte estrutura:
+
+```javascript
+{
+  title: "Nome do Curso ou Material", // (Obrigatório) O texto que será exibido
+  url: "https://link-do-material.com" // (Opcional) O link para o conteúdo. Se omitido, renderiza apenas como texto.
+}
+```
+
+Para `researchTopics`, o array suporta textos simples (Strings):
+
+```javascript
+researchTopics: [
+  "HTML Básico",
+  "Flexbox e CSS Grid"
+]
+```
+
+### Exemplo Completo
+
+```javascript
+export const roadmapData = {
+  logic: {
+    courses: [
+      { title: "Lógica de Programação - IFSUL", url: "https://mundi.ifsul.edu.br/..." },
+      { title: "Lógica Avançada (Apenas Texto)", url: null }
+    ],
+    researchTopics: [
+      "Algoritmos de Ordenação",
+      "Tipos de Dados"
+    ],
+    todo: [
+      { title: "Lista de Exercícios", url: "https://site.com/exercicios" }
+    ]
+  }
+};
+```
 ## Como Executar Localmente
 
 ### Pré-requisitos
